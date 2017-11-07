@@ -23,7 +23,7 @@ const configDB = require('./config/database.js');
 
 mongoose.connect(configDB.url) // Connect to our database
 
-// require('/.config/passport')(passport); // pass passport for configuration
+require('./config/passport')(passport); // pass passport for configuration
 
 
 //////////////////////////////
